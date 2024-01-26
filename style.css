@@ -1,6 +1,17 @@
 .Card{
     width: 266px;
-    height: 205px;
     border: 1px solid black;
     border-radius: 16px;
+}
+
+.Card-header img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+.Card-header{
+    width: 266px;
+    height: 136px;
 }
